@@ -1,7 +1,7 @@
-## Dynamic Templates... Nerd Style
+## Dynamic Nerd Templates
 ================
 ### About
-Dynamic Templates... Nerd Style contains examples of NSS assignments re: EJS (Embedded JavaScript), CSS/HTML web pages.
+Dynamic Nerd Templates... Nerd Style contains examples of NSS assignments re: EJS (Embedded JavaScript), CSS/HTML web pages.
 
 ### Web Pages
 ```
