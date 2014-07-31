@@ -1,0 +1,19 @@
+{
+  "name": "dynamic-nerd",
+  "version": "0.0.0",
+  "description": "Dynamic Nerd Template",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mlfryman/dynamic-nerd"
+  },
+  "author": "Melanie Fryman <melanie@frymanet.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mlfryman/dynamic-nerd/issues"
+  },
+  "homepage": "https://github.com/mlfryman/dynamic-nerd"
+}

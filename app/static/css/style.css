@@ -1,0 +1,115 @@
+table td{
+  height: 64px;
+  width: 64px;
+}
+
+table td:last-of-type{
+  text-align: center;
+  font-size: 25px;
+}
+
+table td:last-of-type span{
+  color: green;
+}
+
+.r1{
+  background-image: url("/images/1.jpg");
+  background-size: cover;
+}
+
+.r2{
+  background-image: url("/images/2.jpg");
+  background-size: cover;
+}
+
+.r3{
+  background-image: url("/images/3.jpg");
+  background-size: cover;
+}
+
+.r4{
+  background-image: url("/images/4.jpg");
+  background-size: cover;
+}
+
+.r5{
+  background-image: url("/images/5.jpg");
+  background-size: cover;
+}
+
+.r6{
+  background-image: url("/images/6.jpg");
+  background-size: cover;
+}
+
+/ * D20 (draft code for D20) */
+
+.r7{
+  background-image: url("/images/7.jpg");
+  background-size: cover;
+}
+
+.r8{
+  background-image: url("/images/8.jpg");
+  background-size: cover;
+}
+
+.r9{
+  background-image: url("/images/9.jpg");
+  background-size: cover;
+}
+
+.r10{
+  background-image: url("/images/10.jpg");
+  background-size: cover;
+}
+
+.r11{
+  background-image: url("/images/11.jpg");
+  background-size: cover;
+}
+
+.r12{
+  background-image: url("/images/12.jpg");
+  background-size: cover;
+}
+
+.r13{
+  background-image: url("/images/13.jpg");
+  background-size: cover;
+}
+
+.r14{
+  background-image: url("/images/14.jpg");
+  background-size: cover;
+}
+
+.r15{
+  background-image: url("/images/15.jpg");
+  background-size: cover;
+}
+
+.r16{
+  background-image: url("/images/16.jpg");
+  background-size: cover;
+}
+
+.r17{
+  background-image: url("/images/17.jpg");
+  background-size: cover;
+}
+
+.r18{
+  background-image: url("/images/18.jpg");
+  background-size: cover;
+}
+
+.r19{
+  background-image: url("/images/19.jpg");
+  background-size: cover;
+}
+
+.r20{
+  background-image: url("/images/20.jpg");
+  background-size: cover;
+}
