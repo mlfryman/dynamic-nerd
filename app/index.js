@@ -15,16 +15,18 @@ app.get('/', function(req, res){
   res.render('index');
 });
 
-app.get('/rolldice/:dice', function(req, res){
-  var roll = req.params.dice * 1;
-  var row = Math.ceil(roll / 10);
+app.get('/rolldice/:num', function(req, res){
+  var num = req.params.num * 1;
   var rolls = [];
+  var sum = 0;
 
-  for(var i = 0; i < roll; i++){
-    rolls.push(Math.floor(Math.random() * 20) + 1);
+  for(var i = 0; i < num; i++){
+    var roll = Math.floor(Math.random() * 6) + 1;
+    rolls.push(roll);
+    sum += roll;
   }
-  var sum = rolls.reduce(function(a, b) {return a + b;});
-  res.render('rolldice', {rolls:rolls, row:row, sum:sum});
+
+  res.render('dice', {rolls:rolls, sum:sum});
 });
 
 var port = process.env.PORT;
